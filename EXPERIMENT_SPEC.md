@@ -16,10 +16,10 @@ only varying component.
 ---
 
 ### 2. Research Hypotheses
-H1: ReLU leads to faster convergence but exhibits higher training instability under noisy conditions.
-H2: Tanh results in more stable training dynamics, at the cost of slower convergence.
-H3: Activation saturation negatively affects generalization performance, particularly in the presence of noise.
-H4: The impact of activation choice is more pronounced in time series settings than in i.i.d. data.
+#### H1: ReLU leads to faster convergence but exhibits higher training instability under noisy conditions.
+#### H2: Tanh results in more stable training dynamics, at the cost of slower convergence.
+#### H3: Activation saturation negatively affects generalization performance, particularly in the presence of noise.
+#### H4: The impact of activation choice is more pronounced in time series settings than in i.i.d. data.
 
 ---
 
@@ -88,4 +88,5 @@ The only varying component is the activation function.
 ### 8. Expected Outcomes
 This study aims to identify systematic behaviors rather than absolute performance
 winners, with particular focus on stability and robustness patterns.
+
 
